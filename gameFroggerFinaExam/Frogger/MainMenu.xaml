@@ -1,0 +1,21 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Frogger"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    x:Class="Frogger.MainMenu"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Margin="340,10,333,0" TextWrapping="Wrap" Text="Frogger" Height="90" FocusVisualPrimaryBrush="#FF190D0D" TextAlignment="Center" FontSize="40" VerticalAlignment="Top"/>
+        <Button x:Name="startButton" Content="Start" Margin="0,136,0,0" VerticalAlignment="Top" Height="48" Width="161" HorizontalAlignment="Center" Click="StartButton_Click"/>
+        <Button x:Name="controlsButton" Content="Controls" Margin="0,189,0,0" VerticalAlignment="Top" Height="48" Width="161" HorizontalAlignment="Center" Click="ControlButton_Click"/>
+        <Button x:Name="optionsbutton" Content="Options" Margin="0,242,0,0" VerticalAlignment="Top" Height="48" Click="OptionsButton_Click" RenderTransformOrigin="0.557,0.53" HorizontalAlignment="Center" Width="161"/>
+        <Button x:Name="CredtisButton" Content="Credits" Margin="0,295,0,0" VerticalAlignment="Top" Height="48" Click="CreditsButton_Click" HorizontalAlignment="Center" Width="161"/>
+
+
+    </Grid>
+</Page>

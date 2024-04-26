@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Frogger.Options"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Frogger"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,86,0,0" TextWrapping="Wrap" Text="Options" VerticalAlignment="Top" Height="61" Width="226" TextAlignment="Center" FontSize="36"/>
+        <Button x:Name="optionsBackButton" Content="Back" Margin="105,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.552,0.533" Click="OptionsBackButton_Click"/>
+        <ToggleSwitch x:Name="MusicToggleSwitch" Header="Sound" Toggled="MusicToggleSwitch_Toggled" Margin="495,172,0,0" VerticalAlignment="Top" Height="103" Width="157" RenderTransformOrigin="0.747,0.589" FontSize="24" UseLayoutRounding="False" d:LayoutRounding="Auto" IsOn="True"  OnContent="On" OffContent="Off">
+            <ToggleSwitch.RenderTransform>
+                <CompositeTransform Rotation="-0.175"/>
+            </ToggleSwitch.RenderTransform>
+        </ToggleSwitch>
+
+    </Grid>
+</Page>

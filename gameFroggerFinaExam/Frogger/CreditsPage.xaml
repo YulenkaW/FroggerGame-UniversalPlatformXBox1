@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Frogger.CreditsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Frogger"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,68,0,0" TextWrapping="Wrap" Text="Credits" VerticalAlignment="Top" Height="61" Width="230" TextAlignment="Center" FontSize="36"/>
+        <Button x:Name="creditsBackButton" Content="Back" Margin="129,92,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,0.463" Click="CreditsBackButton_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,144,0,0" TextWrapping="Wrap" Text="Yuliya Wickens" VerticalAlignment="Top" Height="50" Width="306" FontSize="24" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,200,0,0" TextWrapping="Wrap" Text="Din Mulaosmanovic" VerticalAlignment="Top" Height="50" Width="306" FontSize="24" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Rasheed Alward" VerticalAlignment="Top" Height="50" Width="306" FontSize="24" TextAlignment="Center" Margin="0,254,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,312,0,0" TextWrapping="Wrap" Text="Alexis Chavez-Guzman" VerticalAlignment="Top" Height="50" Width="306" FontSize="24" TextAlignment="Center"/>
+
+    </Grid>
+</Page>
